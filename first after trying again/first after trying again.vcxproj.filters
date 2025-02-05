@@ -34,6 +34,9 @@
     <Filter Include="Header Files\login">
       <UniqueIdentifier>{99078a81-bd46-43bb-b14a-fdb5eaa3ef42}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\User Interface\Currency Exchange">
+      <UniqueIdentifier>{3286dc16-3055-4279-b051-f938747dc3c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first after trying again.cpp">
@@ -130,6 +133,24 @@
     </ClInclude>
     <ClInclude Include="clsTransferRegisterScreen.h">
       <Filter>Header Files\User Interface\transaction menu</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrency.h">
+      <Filter>Header Files\User Interface\Currency Exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrencyExchangeScreen.h">
+      <Filter>Header Files\User Interface\Currency Exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrenciesListScreen.h">
+      <Filter>Header Files\User Interface\Currency Exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindCurrencyScreen.h">
+      <Filter>Header Files\User Interface\Currency Exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateCurrencyRateScreen.h">
+      <Filter>Header Files\User Interface\Currency Exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrencyCalcScreen.h">
+      <Filter>Header Files\User Interface\Currency Exchange</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

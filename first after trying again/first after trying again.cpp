@@ -1,11 +1,12 @@
-﻿ 
-#include <iostream>
+﻿#include <iostream>
 #include "clsLoginScreen.h"
 
 using namespace std;
 
 int main()
 {
+
+
 	while (true)
 	{
 		if (!clsLoginScreen::ShowLoginScreen())
@@ -13,7 +14,8 @@ int main()
 			break;
 		}
 	}
-    system("pause>0");   
+
+	system("pause>0");
 
 	return 0;
 }

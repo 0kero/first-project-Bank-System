@@ -26,7 +26,8 @@ protected:
         cout << "\n\t\t\t\t\tUser:" << CurrentUser.UserName << endl;
 
         cout << "\t\t\t\t\t";
-        clsDate::Print(clsDate::GetSystemDate());
+        clsDate Date;
+        cout << Date.GetDateLogLine();
         cout << endl;
     }
     static bool CheckAccessRights(clsUser::enPermissions Permission)
